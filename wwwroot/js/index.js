@@ -3,6 +3,11 @@ $(document).ready(function() {
     var $content = $(".content").waypoint(function(){
        
     },{offset:'30%'}); 
+
+    $(".button").on('click',function(){
+        $(".sec3").toggle();
+    })
+    $(".sec3").toggle();
 })
 
 

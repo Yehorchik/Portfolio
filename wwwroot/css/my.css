@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Gloria+Hallelujah');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
 .center
 {
     float: left;
@@ -111,4 +112,21 @@
 .container:hover .links li:nth-child(3)
 {
     transition-delay: 1.1s;
+}
+.contentsecond{
+    text-align: center;
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 30px;
+}
+.contentsecond p
+{
+    margin: 0;
+}
+#sec3{
+    position: absolute;
+    top: 240%;
+}
+#info_content{
+    position: absolute;
+    top: 80%;
 }
