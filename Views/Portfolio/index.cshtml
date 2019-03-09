@@ -6,6 +6,8 @@
         <link rel="stylesheet" href="~/css/style.css"/>
         <link rel="stylesheet" href="~/css/my.css"/>
         <link rel="stylesheet" href="~/css/secfirst.css"/>
+        <link rel="stylesheet" href="~/css/secthird.css"/>
+        <link rel="stylesheet" href="~/css/secsecond.css"/>
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" 
         integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -19,7 +21,7 @@
                 <li><a href="#sec1" class="active">Home</a></li>
                 <li><a href="#info_content" id="about">About</a></li>
                 <li><a href="#" class="portfolio">Portfolio</a></li>
-                <li><a href="#" class="technology">Technology</a></li>
+                <li><a href="#sec3" class="technology">Technology</a></li>
                 <li><a href="#" class="contact">Contact</a></li>
             </ul>
         </nav>
@@ -31,7 +33,7 @@
                 <p>Yehor Melnyk</p>
             </div>
         </section>
-        <section id="info_content" class="content">
+        <section class="content">
             <div class="center">
                 <div class="container">
                     <img class="me" src="~/images/Yehor.jpg">
@@ -53,18 +55,188 @@
                 </p>
             </div>
         </section>
-        <section class="sec2"></section>
-        <section class="contentsecond">
-            <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
-            nisi ut aliquip ex ea commodo consequat. 
-            Duis aute irure dolor in reprehenderit in voluptate velit esse 
-            cillum dolore eu fugiat nulla pariatur.
-            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui 
-            officia deserunt mollit anim id est laborum.</p>
+        <section class="sec2">
+            <div class="cloud">
+
+            </div>
         </section>
-        <section class="sec3"></section>
+        <hr id="info_content">
+        <hr id="sec3">
+        <section  class="contentsecond">
+            <p> Here some of my Skills </p>
+            <input type="submit" class="button" value="Click to see">
+        </section>
+        <section  class="sec3">
+            <div class="skill-card">
+                <header class="skill-card__header"><img class="skill-card__icon" src="https://upload.wikimedia.org/wikipedia/commons/3/38/HTML5_Badge.svg" alt="HTML5 Logo"/></header>
+                <section class="skill-card__body">
+                <h2 class="skill-card__title">html</h2><span class="skill-card__duration">Advance</span>
+                <ul class="skill-card__knowledge">
+                    <li>HTML is a markup language used for structuring 
+                            and presenting content on the web.</li>
+                </ul>
+                </section>
+            </div>
+            <div class="skill-card">
+                <header class="skill-card__header"><img class="skill-card__icon" src="https://cdn1.iconfinder.com/data/icons/logotypes/32/badge-css-3-512.png" alt="CSSLogo"/></header>
+                    <section class="skill-card__body">
+                    <h2 class="skill-card__title">CSS</h2><span class="skill-card__duration">Advance</span>
+                    <ul class="skill-card__knowledge">
+                        <li>Cascading Style Sheets.It's help to control the look
+                            and feel of web documents.
+                        </li>
+                    </ul>
+                </section>
+            </div>
+            <div class="skill-card">
+                    <header class="skill-card__header"><img class="skill-card__icon" src="http://pluspng.com/img-png/logo-javascript-png-javascript-tutorials-400.png" alt="JsLogo"/></header>
+                        <section class="skill-card__body">
+                        <h2 class="skill-card__title">JS</h2><span class="skill-card__duration">Intermediate</span>
+                        <ul class="skill-card__knowledge">
+                            <li>Language to add interactivity to webpages,process data , create various applications.
+                            </li>
+                        </ul>
+                    </section>
+            </div>
+            <div class="skill-card">
+                    <header class="skill-card__header"><img class="skill-card__icon" src="http://www.knwd.ue.wroc.pl/img/tools/angular-icon.svg" alt="Angular Logo"/></header>
+                        <section class="skill-card__body">
+                        <h2 class="skill-card__title">Angular</h2><span class="skill-card__duration">Intermediate</span>
+                        <ul class="skill-card__knowledge">
+                            <li>Angular is a TypeScript-based open-source front-end web 
+                                application platform.
+                            </li>
+                        </ul>
+                    </section>
+            </div>
+     
+            <div class="skill-card">
+                    <header class="skill-card__header"><img class="skill-card__icon" src="https://cdn.iconscout.com/icon/free/png-256/jquery-7-1175152.png" alt="Jquery Logo"/></header>
+                        <section class="skill-card__body">
+                        <h2 class="skill-card__title">Jquery</h2><span class="skill-card__duration">Intermediate</span>
+                        <ul class="skill-card__knowledge">
+                            <li>jQuery is a cross-platform JavaScript library 
+                                designed to simplify the client-side scripting of HTML.
+                            </li>
+                        </ul>
+                    </section>
+            </div>
+            <div class="skill-card">
+                    <header class="skill-card__header"><img class="skill-card__icon" src="https://sass-lang.com/assets/img/logos/logo-b6e1ef6e.svg" alt="Sass Logo"/></header>
+                        <section class="skill-card__body">
+                        <h2 class="skill-card__title">Sass</h2><span class="skill-card__duration">Elementary</span>
+                        <ul class="skill-card__knowledge">
+                            <li>Syntactically Awesome Style Sheets - preprocessor 
+                                ,language which interpreted or compiled into CSS .
+                            </li>
+                        </ul>
+                    </section>
+            </div>
+            <div class="skill-card">
+                    <header class="skill-card__header"><img id="flask" class="skill-card__icon" src="https://cdn0.froala.com/assets/editor/docs/server/meta-social/flask-e3bf97f0f7552b62b3996c0131fb9be1.png" alt="Flask Logo"/></header>
+                        <section class="skill-card__body">
+                        <h2 class="skill-card__title">Flask</h2><span class="skill-card__duration">Elementary</span>
+                        <ul class="skill-card__knowledge">
+                            <li>Python's
+                                that provides tremendous freedom in the layout and structure of a web-server.
+                            </li>
+                        </ul>
+                    </section>
+            </div>
+            <div class="skill-card">
+                    <header class="skill-card__header"><img id="flask" class="skill-card__icon" src="https://pngimage.net/wp-content/uploads/2018/05/django-png-9.png" alt="DjangoLogo"/></header>
+                        <section class="skill-card__body">
+                        <h2 class="skill-card__title">Django</h2><span class="skill-card__duration">Intermediate</span>
+                        <ul class="skill-card__knowledge">
+                            <li>Django is Python Web framework 
+                                that encourages rapid development and clean, pragmatic design.
+                            </li>
+                        </ul>
+                    </section>
+            </div>
+            <div class="skill-card">
+                    <header class="skill-card__header"><img id="python" class="skill-card__icon" src="https://pngimage.net/wp-content/uploads/2018/06/python-png-4.png" alt="Python Logo"/></header>
+                        <section class="skill-card__body">
+                        <h2 class="skill-card__title">Python</h2><span class="skill-card__duration">Intermediate</span>
+                        <ul class="skill-card__knowledge">
+                            <li>Python is an interpreted high-level programming language 
+                                for general-purpose programming.
+                            </li>
+                        </ul>
+                    </section>
+            </div>
+            <div class="skill-card">
+                    <header class="skill-card__header"><img id="net" class="skill-card__icon" src="http://www.mukeshkumar.net/Upload/ArticleHeader/Header/aspnet-core.png" alt=".net Logo"/></header>
+                        <section class="skill-card__body">
+                        <h2 class="skill-card__title">.Net</h2><span class="skill-card__duration">Intermediate</span>
+                        <ul class="skill-card__knowledge">
+                            <li>ASP.NET Core is  web framework, 
+                                and the next generation of ASP.NET, developed by Microsoft.
+                            </li>
+                        </ul>
+                    </section>
+            </div>
+            <div class="skill-card">
+                    <header class="skill-card__header"><img class="skill-card__icon" src="https://camo.githubusercontent.com/0617f4657fef12e8d16db45b8d73def73144b09f/68747470733a2f2f646576656c6f7065722e6665646f726170726f6a6563742e6f72672f7374617469632f6c6f676f2f6373686172702e706e67" alt="C# Logo"/></header>
+                        <section class="skill-card__body">
+                        <h2 class="skill-card__title">C#</h2><span class="skill-card__duration">Intermediate</span>
+                        <ul class="skill-card__knowledge">
+                            <li>C# is an elegant oop language with strong disciplines.
+                            </li>
+                        </ul>
+                    </section>
+            </div>
+            <div class="skill-card">
+                    <header class="skill-card__header"><img id="node" class="skill-card__icon" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Node.js_logo_2015.svg/1280px-Node.js_logo_2015.svg.png" alt="C# Logo"/></header>
+                        <section class="skill-card__body">
+                        <h2 class="skill-card__title">Node JS</h2><span class="skill-card__duration">Intermediate</span>
+                        <ul class="skill-card__knowledge">
+                            <li>Node.js is an open-source  environment that executes JavaScript code outside the browser.
+                            </li>
+                        </ul>
+                    </section>
+            </div>
+            <div class="skill-card">
+                    <header class="skill-card__header"><img id="express" class="skill-card__icon" src="https://www.atatus.com/images/devicon/icon-express.svg" alt="Express Logo"/></header>
+                        <section class="skill-card__body">
+                        <h2 class="skill-card__title">Express JS</h2><span class="skill-card__duration">Intermediate</span>
+                        <ul class="skill-card__knowledge">
+                            <li> Web application framework for Node.js designed for building web applications and APIs.
+                            </li>
+                        </ul>
+                    </section>
+            </div>
+            <div class="skill-card">
+                    <header class="skill-card__header"><img id="express" class="skill-card__icon" src="https://cdn.freebiesupply.com/logos/large/2x/mysql-logo-png-transparent.png" alt="MYSQL Logo"/></header>
+                        <section class="skill-card__body">
+                        <h2 class="skill-card__title">MySQL</h2><span class="skill-card__duration">Intermediate</span>
+                        <ul class="skill-card__knowledge">
+                            <li>MySQL is an open-source relational database management system.
+                            </li>
+                        </ul>
+                    </section>
+            </div>
+            <div class="skill-card">
+                    <header class="skill-card__header"><img  class="skill-card__icon" src="https://cdn-images-1.medium.com/max/449/1*NRCOyVBY6Jiqr4Q9A1zoaQ.png" alt="MongoDB Logo"/></header>
+                        <section class="skill-card__body">
+                        <h2 class="skill-card__title">MongoDB</h2><span class="skill-card__duration">Intermediate</span>
+                        <ul class="skill-card__knowledge">
+                            <li>MongoDB is a free and open-source cross-platform document-oriented database program. 
+                            </li>
+                        </ul>
+                    </section>
+            </div>
+            <div class="skill-card">
+                    <header class="skill-card__header"><img id="express" class="skill-card__icon" src="https://github.githubassets.com/images/modules/logos_page/Octocat.png" alt="GitHubLogo"/></header>
+                        <section class="skill-card__body">
+                        <h2 class="skill-card__title">GitHub</h2><span class="skill-card__duration">Intermediate</span>
+                        <ul class="skill-card__knowledge">
+                            <li>GitHub is a web-based hosting service for version control using Git. 
+                            </li>
+                        </ul>
+                    </section>
+            </div>
+        </section>
         <section class="contentthird">
             <p> "Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
             sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
