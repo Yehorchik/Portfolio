@@ -7,6 +7,9 @@
         <link rel="stylesheet" href="~/css/my.css"/>
         <link rel="stylesheet" href="~/css/secfirst.css"/>
         <link rel="stylesheet" href="~/css/secthird.css"/>
+        <link rel="stylesheet" href="~/css/slide.css"/>
+        <link rel="stylesheet" href="~/css/secondslide.css"/>
+        <link rel="stylesheet" href="~/css/thirdslide.css"/>
         <link rel="stylesheet" href="~/css/secsecond.css"/>
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" 
         integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
@@ -20,7 +23,7 @@
             <ul>
                 <li><a href="#sec1" class="active">Home</a></li>
                 <li><a href="#info_content" id="about">About</a></li>
-                <li><a href="#" class="portfolio">Portfolio</a></li>
+                <li><a href="#portfolio_content" class="portfolio">Portfolio</a></li>
                 <li><a href="#sec3" class="technology">Technology</a></li>
                 <li><a href="#" class="contact">Contact</a></li>
             </ul>
@@ -62,6 +65,7 @@
         </section>
         <hr id="info_content">
         <hr id="sec3">
+        <hr id="portfolio_content">
         <section  class="contentsecond">
             <p> Here some of my Skills </p>
             <input type="submit" class="button" value="Click to see">
@@ -144,7 +148,7 @@
                     </section>
             </div>
             <div class="skill-card">
-                    <header class="skill-card__header"><img id="flask" class="skill-card__icon" src="https://pngimage.net/wp-content/uploads/2018/05/django-png-9.png" alt="DjangoLogo"/></header>
+                    <header class="skill-card__header"><img id="flask" class="skill-card__icon" src="https://png.pngtree.com/svg/20170717/b3806e7e9e.svg" alt="DjangoLogo"/></header>
                         <section class="skill-card__body">
                         <h2 class="skill-card__title">Django</h2><span class="skill-card__duration">Intermediate</span>
                         <ul class="skill-card__knowledge">
@@ -155,7 +159,7 @@
                     </section>
             </div>
             <div class="skill-card">
-                    <header class="skill-card__header"><img id="python" class="skill-card__icon" src="https://pngimage.net/wp-content/uploads/2018/06/python-png-4.png" alt="Python Logo"/></header>
+                    <header class="skill-card__header"><img  class="skill-card__icon" src="https://dumielauxepices.net/sites/default/files/python-logo-clipart-tail-730865-9099733.png" alt="Python Logo"/></header>
                         <section class="skill-card__body">
                         <h2 class="skill-card__title">Python</h2><span class="skill-card__duration">Intermediate</span>
                         <ul class="skill-card__knowledge">
@@ -238,14 +242,136 @@
             </div>
         </section>
         <section class="contentthird">
-            <p> "Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
-            nisi ut aliquip ex ea commodo consequat. 
-            Duis aute irure dolor in reprehenderit in voluptate velit esse 
-            cillum dolore eu fugiat nulla pariatur.
-            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui 
-            officia deserunt mollit anim id est laborum."</p>
+           <p class="thirty_pixels">Some of My Work</p>
+            <div class="first_project">
+                <div class="slider">
+                    <input type="radio" name="images" id="i1" checked>
+                    <input type="radio" name="images" id="i2">
+                    <input type="radio" name="images" id="i3">
+                    <input type="radio" name="images" id="i4">
+                        <div class="slide_img" id="one">
+                        <img src="~/images/chatboxfirst.png"> 
+                        <label for="i3" class="pre"></label>
+                        <label for="i2" class="nxt"></label>
+                        </div>
+                        <div class="slide_img" id="two">
+                            <img src="~/images/chatboxsecond.png" >
+                            <label for="i1" class="pre"></label>
+                            <label for="i3" class="nxt"></label> 
+                        </div>
+                        <div class="slide_img" id="three">
+                            <img src="~/images/chatboxthird.png" > 
+                            <label for="i2" class="pre"></label>
+                            <label for="i4" class="nxt"></label>
+                        </div>
+                        <div class="slide_img" id="four">
+                            <img src="~/images/chatboxfours.png" > 
+                            <label for="i3" class="pre"></label>
+                            <label for="i1" class="nxt"></label>
+                        </div>
+                        <div class="nav">
+
+                            <label class="dots" id="dot1" for="i1"></label>
+                            <label class="dots" id="dot2" for="i2"></label>
+                            <label class="dots" id="dot3" for="i3"></label>
+                            <label class="dots" id="dot4" for="i4"></label>
+                        </div>
+                </div>
+                <div class="info_1">
+                    <p><span>Chatbox</span> my small social network allows you to add or delete people from your friends list and chat with them, 
+                    view and delete incoming messages and find out the exact number of received messages.</p>
+                    <span>Technologies used: Python/ Django / SQLite /Ajax / JQUERY/ CSS</span>
+                    <br>
+                    <a href="https://github.com/Yehorchik/chatbox">View Source Code</a>
+                </div>
+            </div>
+            <div class="second_project">
+                 <div class="info_1">
+                    <p><span>Block Breaker</span> video game with the object of the game being for 
+                    the player to break as many blocks as they can without causing the ball to fall. 
+                    The player will progress through a map which shows 2 locations that contain blocks.</p>
+                    <span>Technologies used: C# , Unity</span>
+                    <br>
+                    <a href="https://github.com/Yehorchik/Block-Breaker-Game">View Source Code</a>
+                </div>
+                <div class="slider">
+                    <input type="radio" name="images_2" id="i5" checked>
+                    <input type="radio" name="images_2" id="i6">
+                    <input type="radio" name="images_2" id="i7">
+                    <input type="radio" name="images_2" id="i8">
+                        <div class="slide_img_hello" id="five">
+                        <img src="~/images/block1.png"> 
+                        <label for="i8" class="pre"></label>
+                        <label for="i6" class="nxt"></label>
+                        </div>
+                        <div class="slide_img_hello" id="six">
+                            <img src="~/images/block2.png" >
+                            <label for="i5" class="pre"></label>
+                            <label for="i7" class="nxt"></label> 
+                        </div>
+                        <div class="slide_img_hello" id="seven">
+                            <img src="~/images/block3.png" > 
+                            <label for="i6" class="pre"></label>
+                            <label for="i8" class="nxt"></label>
+                        </div>
+                        <div class="slide_img_hello" id="eight">
+                            <img src="~/images/block4.png" > 
+                            <label for="i7" class="pre"></label>
+                            <label for="i5" class="nxt"></label>
+                        </div>
+                        <div class="nav">
+
+                            <label class="dots" id="dot5" for="i5"></label>
+                            <label class="dots" id="dot6" for="i6"></label>
+                            <label class="dots" id="dot7" for="i7"></label>
+                            <label class="dots" id="dot8" for="i8"></label>
+                        </div>
+                </div>
+            </div>
+            <div class="third_project">
+                <div class="slider">
+                    <input type="radio" name="images_3" id="i9" checked>
+                    <input type="radio" name="images_3" id="i10">
+                    <input type="radio" name="images_3" id="i11">
+                    <input type="radio" name="images_3" id="i12">
+                        <div class="slide_img_third" id="nine">
+                        <img src="~/images/orphan1.png"> 
+                        <label for="i12" class="pre"></label>
+                        <label for="i10" class="nxt"></label>
+                        </div>
+                        <div class="slide_img_third" id="ten">
+                            <img src="~/images/orphan2.png" >
+                            <label for="i9" class="pre"></label>
+                            <label for="i11" class="nxt"></label> 
+                        </div>
+                        <div class="slide_img_third" id="eleven">
+                            <img src="~/images/orphan3.png" > 
+                            <label for="i10" class="pre"></label>
+                            <label for="i12" class="nxt"></label>
+                        </div>
+                        <div class="slide_img_third" id="twelve">
+                            <img src="~/images/orphan4.png" > 
+                            <label for="i11" class="pre"></label>
+                            <label for="i9" class="nxt"></label>
+                        </div>
+                        <div class="nav">
+
+                            <label class="dots" id="dot9" for="i9"></label>
+                            <label class="dots" id="dot10" for="i10"></label>
+                            <label class="dots" id="dot11" for="i11"></label>
+                            <label class="dots" id="dot12" for="i12"></label>
+                        </div>
+                </div>
+                <div class="info_1">
+                    <p><span>Young Line</span> Working like a team with my partner we able to create a website that helps to 
+                    improve lives of orphans children, where people can donate money, leave feedbacks if they want, also 
+                    view other people's feedbacks and like them . 
+                    We used the weather api in this site, where people can search the weather from all over the world.</p>
+                    <span>Technologies used: ANGULAR 5 / NODE.JS / EXPRESS / TYPESCRIPT / MONGOOSE / MONGODB /CSS /JSON</span>
+                    <br>
+                    <a href="https://github.com/Yehorchik/orphan">View Source Code</a>
+                </div>
+            </div>
         </section>
         <section class="sec4"></section>
     </body>

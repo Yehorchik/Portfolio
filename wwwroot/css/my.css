@@ -115,7 +115,7 @@
 }
 .contentsecond{
     text-align: center;
-    font-family: 'Gloria Hallelujah', cursive;
+    font-family: 'Sniglet', cursive;
     font-size: 30px;
 }
 .contentsecond p
@@ -129,4 +129,26 @@
 #info_content{
     position: absolute;
     top: 80%;
+}
+#portfolio_content{
+    position: absolute;
+    top: 275%;
+}
+.content{
+    border-bottom: 10px solid #C06C84;
+    border-top: 10px solid #C06c84;
+}
+.contentsecond{
+    border-top: 10px solid #C06c84;
+}
+.contentthird{
+    border-top: 10px solid #C06c84;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.thirty_pixels
+{
+    font-size: 30px;
+    font-family: 'Sniglet', cursive;
+
 }
