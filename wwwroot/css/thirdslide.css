@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css?family=Sniglet');
+.third_project .slider{
+    margin: 0 auto;
+    margin-top: 20px;
+    position: relative;
+    width: 50%;
+    height: 0%;
+    padding-bottom: 30%;
+    background: #4c4c4c;
+    border: solid 10px rgb(159, 119, 210);
+    display: inline-block;
+}
+.third_project .slide_img_third
+{
+    position: absolute;
+    width : 100%;
+    height: 100%;
+}
+.third_project .slide_img_third img
+{
+    width: 100%;
+    height: 100%;
+}
+.third_project #i9,#i10,#i11,#i12
+{
+    display: none;
+}
+.third_project .pre, .nxt
+{
+    width: 12%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    background: rgba(195, 109, 131, .3);
+    z-index: 1;
+    cursor: pointer;
+}
+.third_project .pre
+{
+    left: 0;
+}
+.third_project .nxt
+{
+    right: 0;
+}
+.third_project .nav
+{
+    width: 100%;
+    height: 11px;
+    bottom: 12%;
+    position: absolute;
+    text-align: center;
+    z-index: 50;
+}
+.third_project .dots
+{
+    top: -5px;
+    width: 18px;
+    height: 18px;
+    margin: 0 4px;
+    position: relative;
+    border-radius: 50%;
+    display: inline-block;
+    background: rgba(195, 109, 131, .6);
+
+}
+.third_project .slide_img_third
+{
+    z-index: -1;
+}
+.third_project #i9:checked ~ #nine,
+#i10:checked ~ #ten,
+#i11:checked ~ #eleven,
+#i12:checked ~ #twelve{
+    z-index: 9;
+}
+.third_project #i9:checked ~ .nav #dot9,
+#i10:checked ~ .nav #dot10,
+#i11:checked ~ .nav #dot11,
+#i12:checked ~ .nav #dot12
+{
+    background:rgba(250, 170, 100, .6);
+}
+.third_project .info_1
+{
+    position: relative;
+    left: 50%;
+    display: block;
+    vertical-align: top;
+    width: 50%;
+    font-family: 'Sniglet', cursive;
+    font-size: 20px;
+    transform: translate(-50%,0%)
+}
+.third_project .info_1 span:nth-child(1)
+{
+    color: yellow;
+}
+.third_project .info_1 span:nth-child(2)
+{
+    color: rgb(230, 83, 45);
+}
+.third_project .info_1 span:nth-child(2)
+{
+    color: rgb(2);
+}

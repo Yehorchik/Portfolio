@@ -28,7 +28,7 @@ nav
     padding: 10px 100px;
     box-sizing: border-box;
     transition: .5s;
-    z-index: 1;
+    z-index: 99;
 }
 nav .logo
 {
@@ -91,7 +91,7 @@ section.sec4
     margin-bottom: 20px;
     width: 140px;
     height: 45px;
-    font-family: 'Gloria Hallelujah', cursive;;
+    font-family: 'Sniglet', cursive;
     font-size: 11px;
     text-transform: uppercase;
     letter-spacing: 2.5px;
