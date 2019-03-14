@@ -21,3 +21,4 @@
 /Users/yehormelnyk/Desktop/Portfolio/obj/Debug/netcoreapp2.1/Portfolio.RazorTargetAssemblyInfo.cs
 /Users/yehormelnyk/Desktop/Portfolio/obj/Debug/netcoreapp2.1/Portfolio.Views.pdb
 /Users/yehormelnyk/Desktop/Portfolio/obj/Debug/netcoreapp2.1/Portfolio.csproj.CopyComplete
+/Users/yehormelnyk/Desktop/Portfolio/obj/Debug/netcoreapp2.1/Razor/Views/_ViewImports.g.cshtml.cs
