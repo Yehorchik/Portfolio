@@ -1,3 +1,4 @@
+@model Mail
 <!DOCTYPE html>
 <html>
     <head>
@@ -6,6 +7,7 @@
         <link rel="stylesheet" href="~/css/style.css"/>
         <link rel="stylesheet" href="~/css/my.css"/>
         <link rel="stylesheet" href="~/css/secfirst.css"/>
+         <link rel="stylesheet" href="~/css/contact.css"/>
         <link rel="stylesheet" href="~/css/secthird.css"/>
         <link rel="stylesheet" href="~/css/slide.css"/>
         <link rel="stylesheet" href="~/css/secondslide.css"/>
@@ -373,6 +375,23 @@
                 </div>
             </div>
         </section>
-        <section class="sec4"></section>
+        <section class="sec4">
+            <div class="main">
+                <div class="form">
+                    <h1>Contact Me</h1>
+                </div>
+                <div class="box">
+                    <form action="/sendMail" method = "POST">
+                        <span asp-validation-for="Name"></span>
+                        <input type="text" name="name" class="form-control" placeholder="Enter your Name" asp-for="Name"><br>
+                        <span asp-validation-for="Email"></span>
+                        <input type="email" name="email" class="form-control" placeholder="Enter your Email" asp-for="Email"><br>
+                        <span asp-validation-for="Message"></span>
+                        <textarea name="message" class="form-control" placeholder="Message" rows="4" asp-for="Message"></textarea><br>
+                        <input type="submit" name="" class="form-control submit"  value="Send Message" >
+                    </form>
+                </div>
+            </div>
+        </section>
     </body>
 </html>
