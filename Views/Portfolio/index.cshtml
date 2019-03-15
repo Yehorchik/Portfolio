@@ -20,17 +20,17 @@
         <script src="~/js/index.js"></script>
     </head>
     <body>
-        <nav>
-           
-            <ul>
-                <li><a href="#sec1" class="active">Home</a></li>
-                <li><a href="#info_content" id="about">About</a></li>
-                <li><a href="#portfolio_content" class="portfolio">Portfolio</a></li>
-                <li><a href="#sec3" class="technology">Technology</a></li>
-                <li><a href="#" class="contact">Contact</a></li>
-            </ul>
-        </nav>
         <section id="sec1" class="sec1">
+            <nav>
+                <div class="menu-toggle"></div>
+                <ul>
+                    <li><a href="#sec1" class="active">Home</a></li>
+                    <li><a href="#info_content" id="about">About</a></li>
+                    <li><a href="#portfolio" class="portfolio">Portfolio</a></li>
+                    <li><a href="#sec3" class="technology">Technology</a></li>
+                    <li><a href="#contact" class="contact">Contact</a></li>
+                </ul>
+            </nav>
              <div class="img">
 
             </div>
@@ -67,7 +67,6 @@
         </section>
         <hr id="info_content">
         <hr id="sec3">
-        <hr id="portfolio_content">
         <section  class="contentsecond">
             <p> Here some of my Skills </p>
             <input type="submit" class="button" value="Click to see">
@@ -243,7 +242,7 @@
                     </section>
             </div>
         </section>
-        <section class="contentthird">
+        <section id='portfolio' class="contentthird">
            <p class="thirty_pixels">Some of My Work</p>
             <div class="first_project">
                 <div class="slider">
@@ -371,23 +370,24 @@
                     We used the weather api in this site, where people can search the weather from all over the world.</p>
                     <span>Technologies used: ANGULAR 5 / NODE.JS / EXPRESS / TYPESCRIPT / MONGOOSE / MONGODB /CSS /JSON</span>
                     <br>
-                    <a href="https://github.com/Yehorchik/orphan">View Source Code</a>
+                    <a  href="https://github.com/Yehorchik/orphan">View Source Code</a>
                 </div>
             </div>
         </section>
-        <section class="sec4">
+        <section id="contact" class="sec4">
             <div class="main">
                 <div class="form">
+                    <h2 class="okay">@TempData["message"]</h2>
                     <h1>Contact Me</h1>
                 </div>
                 <div class="box">
                     <form action="/sendMail" method = "POST">
                         <span asp-validation-for="Name"></span>
-                        <input type="text" name="name" class="form-control" placeholder="Enter your Name" asp-for="Name"><br>
+                        <input type="text" name="name" class="form-control" placeholder="Enter your Name" asp-for="Name" required ><br>
                         <span asp-validation-for="Email"></span>
-                        <input type="email" name="email" class="form-control" placeholder="Enter your Email" asp-for="Email"><br>
+                        <input type="email" name="email" class="form-control" placeholder="Enter your Email" asp-for="Email" required ><br>
                         <span asp-validation-for="Message"></span>
-                        <textarea name="message" class="form-control" placeholder="Message" rows="4" asp-for="Message"></textarea><br>
+                        <textarea name="message" class="form-control" placeholder="Message" rows="4" asp-for="Message" required></textarea><br>
                         <input type="submit" name="" class="form-control submit"  value="Send Message" >
                     </form>
                 </div>

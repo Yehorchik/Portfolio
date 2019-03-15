@@ -45,6 +45,11 @@ form .submit
     margin-top: 3%;
     transition: 0.4s ease;
 }
+.okay
+{
+    color:#28a700;
+    transition: 0.5s ;
+}
 
 form .submit:hover
 {
