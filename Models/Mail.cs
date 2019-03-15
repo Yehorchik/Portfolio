@@ -15,7 +15,7 @@ namespace Portfolio .Models
         public string Name { get; set;}
 
         [Required]
-        [MinLength (10, ErrorMessage="Message required ,minimum 10 characters")]
+        [MinLength (1, ErrorMessage="Message required ,minimum 10 characters")]
         public string Message { get; set;}
 
     }
