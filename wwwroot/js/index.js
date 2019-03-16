@@ -8,16 +8,29 @@ $(document).ready(function() {
         $(".sec3").toggle();
     })
     $(".sec3").toggle();
+
+
+    $(".menu-toggle").click(function(){
+        $(".menu-toggle").toggleClass('active');
+        $("nav").toggleClass('active');
+    })
+
+    setTimeout(function(){
+        if ($('.okay').length > 0) {
+          $('.okay').empty();
+        }
+      }, 5000)
+      
 })
 
 
 $(window).on('scroll', function(){
     if($(window).scrollTop()){
-        $('nav').addClass('black');
+        $('header').addClass('black');
     }
     else
     {
-        $('nav').removeClass('black');
+        $('header').removeClass('black');
     }
 
 })

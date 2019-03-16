@@ -7,7 +7,7 @@
     height: 0%;
     padding-bottom: 30%;
     background: #4c4c4c;
-    border: solid 10px rgb(159, 119, 210);
+    border: solid 10px #fd4445;;
     display: inline-block;
 }
 .first_project .slide_img
@@ -88,14 +88,17 @@
     vertical-align: top;
     width: 30%;
     margin-top: 5%;
-    font-family: 'Sniglet', cursive;
     font-size: 20px;
 }
 .first_project .info_1 span:nth-child(1)
 {
-    color: yellow;
+    color: #ffaf00;
 }
 .first_project .info_1 span:nth-child(2)
 {
-    color: rgb(230, 83, 45);
+    color: #ffaf00;
+}
+ a
+{
+    color: #013950;
 }

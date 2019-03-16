@@ -33,7 +33,7 @@
 
 }
 .img{
-    height: 100vh;
+    height: 87vh;
     width: 100%;
     background-image: url("../images/first.jpg");
     background-size: 100% 100%;
@@ -42,4 +42,11 @@
     transform: rotateY(180deg);
     transition: all 3s ease-in-out;
 
+}
+@media(max-width: 650px)
+{
+    .text 
+    {
+      font-size: 70px;
+    }
 }

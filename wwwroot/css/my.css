@@ -7,14 +7,13 @@
     position: relative;
     top: 50%;
     left: 20%;
-    transform: translate(-50%,-10%);
+    transform: translate(-50%,-24%);
 }
 .info{
    position: relative;
    width: 900px;
    top: 30%;
    left: 20%;
-   font-family: 'Gloria Hallelujah', cursive;
 }
 
 .container
@@ -115,7 +114,6 @@
 }
 .contentsecond{
     text-align: center;
-    font-family: 'Sniglet', cursive;
     font-size: 30px;
 }
 .contentsecond p
@@ -124,35 +122,29 @@
 }
 #sec3{
     position: absolute;
-    top: 240%;
+    top: 150%;
 }
 #info_content{
     position: absolute;
-    top: 80%;
+    top: 0;
 }
 #portfolio_content{
     position: absolute;
     top: 275%;
 }
-.content{
-    border-bottom: 10px solid #C06C84;
-    border-top: 10px solid #C06c84;
-}
 .contentsecond{
-    border-top: 10px solid #C06c84;
+    border-top: 10px solid #01395e;
 }
 .contentthird{
-    border-top: 10px solid #C06c84;
+    border-top: 10px solid #01395e;
     text-align: center;
 }
 .sec4{
-    border-top: 10px solid #C06c84;
+    border-top: 10px solid #01395e;;
 }
 .thirty_pixels
 {
     font-size: 30px;
-    font-family: 'Sniglet', cursive;
-
 }
 @media(max-width : 1200px)
 {
@@ -187,7 +179,7 @@
     }
     .info {
         left: -3%;
-        width: 600px;
+        width: 508px;
         font-size: 12px;
     }
 
@@ -202,21 +194,33 @@
         overflow: hidden;
     }
 }
-@media(max-width : 668px)
-{
-    .center
-    {
-       left: 2%;
+@media(max-width : 623px)
+{ 
+    .info {
+        left: -3%;
+        width: 400px;
+        font-size: 12px;
     }
-    .info
-    {
-        left:-10%;
-        width: 300px;
-        font-size: 8px;
-    }
+   
 }
+
 @media(max-width : 448px)
 {
+    .form h1
+    {
+        font-size: 200%;
+    }
+    .button
+    {
+        width: 100px;
+        height: 30px;
+        font-size: 8px;
+
+    }
+    .contentsecond p 
+    {
+        font-size: 20px;
+    }
     .center
     {
        left: 0%;
