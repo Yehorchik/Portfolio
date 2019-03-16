@@ -7,7 +7,7 @@
     height: 0%;
     padding-bottom: 30%;
     background: #4c4c4c;
-    border: solid 10px rgb(159, 119, 210);
+    border: solid 10px #fd4445;
     display: inline-block;
 }
 .third_project .slide_img_third
@@ -89,21 +89,60 @@
     display: block;
     vertical-align: top;
     width: 50%;
-    font-family: 'Sniglet', cursive;
     font-size: 20px;
     transform: translate(-50%,0%)
 }
 .third_project .info_1 span:nth-child(1)
 {
-    color: yellow;
+    color: #ffaf00;
 }
 .third_project .info_1 span:nth-child(2)
 {
-    color: rgb(230, 83, 45);
+    color: #ffaf00;
 }
 .third_project .info_1 span:nth-child(2)
 {
     color: rgb(2);
+}
+
+.pre h1
+{
+    font-size: 50px;
+    position: relative;
+    top: 30%;
+    color: aliceblue;
+
+}
+.nxt h1
+{
+    font-size: 50px;
+    position: relative;
+    top: 30%;
+    color: aliceblue;
+}
+@media(max-width : 1000px)
+{
+    .pre h1
+    {
+        font-size: 30px;
+    }
+    .nxt h1 
+    {
+        font-size: 30px;
+    }
+   
+}
+@media(max-width : 1000px)
+{
+    .pre h1
+    {
+        font-size: 20px;
+    }
+    .nxt h1 
+    {
+        font-size: 20px;
+    }
+   
 }
 
 @media(max-width : 768px)
@@ -127,5 +166,10 @@
     .contentthird .info_1
     {
        font-size: 8px;
+    }
+    .dots
+    {
+        width: 10px;
+        height: 10px;
     }
 }

@@ -27,3 +27,14 @@ section.sec2
        background-position: 5440px;
    }
 }
+@media(max-width : 448px)
+{
+    .sec2
+    {
+        display: none;
+    }
+    .content
+    {
+        border-bottom: none;
+    }
+}
